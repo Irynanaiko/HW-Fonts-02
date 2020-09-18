@@ -1,0 +1,80 @@
+/* RESET Styles */
+body,
+p,
+h2 {
+    margin: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    width: 1716px;
+    height: 1350px;
+    background-color: #ffffff;
+}
+
+* {
+    transition: all .1s easy-in;
+}
+
+.content {
+    margin-top: 90px;
+    margin-left: 75px;
+    width: 1400px;
+    height: 940px;
+    filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.1));
+}
+
+.title {
+    font-size: 42px;
+    letter-spacing: 0px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+
+.text {
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #171717;
+    font-weight: 300;
+    font-family: "Lato";
+}
+
+p:first-letter {
+    padding: 2px 10px;
+    margin-right: 5px;
+    float: left;
+    font-size: 110px;
+    letter-spacing: -1px;
+    line-height: 74px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-top: 10px;
+}
+
+span {
+    font-size: 24px;
+}
+
+button {
+    width: 252px;
+    height: 36px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 34px;
+    color: #eaa258;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    border: 1px solid #eaa258;
+    margin-top: 35px;
+}
